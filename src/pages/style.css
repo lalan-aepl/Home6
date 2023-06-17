@@ -30,3 +30,10 @@
     background-size: cover;
 
 }
+.visitorBg{
+  background-image: url('../assets/visitorsBg.png');
+  background-position:center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

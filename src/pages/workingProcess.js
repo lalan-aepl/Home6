@@ -8,7 +8,7 @@ import AutorenewOutlinedIcon from '@mui/icons-material/AutorenewOutlined';
 import WhatWeOfferCard from '@/components/card/whatWeOfferCard'
 const WorkingProcess = () => {
   return (
-    <div className='bg-normalWhite'>
+    <div className='bg-normalWhite pt-4'>
         <div className='px-4 sm:px-20 max-w-screen-2xl mx-auto p-2'>
             <div className=' '>
                 <div className='py-4'>
@@ -26,7 +26,7 @@ const WorkingProcess = () => {
                 <h2 className='font-medium text-base'>Why our working is so unique</h2>
                 <h1 className='font-bold text-2xl py-4'>See how working process <br></br> easily adapt your need</h1>
             </div>
-            <div className='grid grid-flow-row sm:grid-cols-2 grid-cols-1  lg:gap-4 gap-2'>
+            <div className='grid grid-flow-row sm:grid-cols-2 grid-cols-1 pt-3  lg:gap-10 sm:gap-6 gap-6'>
                 <WhatWeOfferCard icon={<HeadsetOutlinedIcon/>} title='24/7 support' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
                 <WhatWeOfferCard icon={<AccessAlarmOutlinedIcon/>} title='Plagiarism Free' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
                 <WhatWeOfferCard icon={<SmartButtonOutlinedIcon/>} title='On time Delivery' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 

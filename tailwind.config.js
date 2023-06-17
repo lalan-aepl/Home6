@@ -22,7 +22,8 @@ module.exports = {
       },
       dark:'#000000',
       btnColor:'#F97C5F',
-      lightSky:' #F7F8FC'
+      lightSky:' #F7F8FC',
+      lightBlue:'#5360E2'
     },
     extend: {
       backgroundImage: {

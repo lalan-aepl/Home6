@@ -10,7 +10,7 @@ export default function Header({ myRef }) {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 170 ? setScroll(true) : setScroll(false);
+      window.scrollY > 70 ? setScroll(true) : setScroll(false);
     });
   }, []);
   return (
@@ -18,14 +18,14 @@ export default function Header({ myRef }) {
     <header
       className={`${
         scroll
-          ? "top-0  navBg z-30 sm:top-0 sm:py-10 bg-lightBg-h shadow-2xl overflow-hidden"
+          ? "top-0  navBg z-30 sm:top-0 sm:py-10 bg-lightSky shadow-2xl overflow-hidden"
           : "top-0 sm:top-0"
       } py-6  text-normalWhite   sm:py-8 fixed w-full transition-all z-10`}
     >
       <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 flex justify-between items-center">
         {/* logo */}
         <a href="#" className="bg-secondary p-1">
-          <span className="font-Inter font-bold tracking-[10px] text-2xl uppercase sm:text-[30px]">
+          <span className="font-Inter text-black font-bold tracking-[10px] text-2xl uppercase sm:text-[30px]">
             LOGO
           </span>
         </a>
@@ -36,13 +36,13 @@ export default function Header({ myRef }) {
         <div className="hidden   lg:block">
           <a
             href="#"
-            className="inline-block rounded-xl bg-transparent mr-6 px-8 py-4 text-sm font-medium   border-2 transition  capitalize"
+            className="inline-block rounded-xl bg-transparent mr-6 px-8 py-4 text-sm font-medium text-black  border-2 border-black transition  capitalize"
           >
             Sign In
           </a>
           <a
             href="#"
-            className="inline-block rounded-xl bg-black px-8 py-4 text-sm font-medium text-lightBg-n transition   capitalize"
+            className="inline-block rounded-xl bg-contact px-8 py-4 text-sm font-medium text-lightBg-n transition   capitalize"
           >
             Sign Up
           </a>
