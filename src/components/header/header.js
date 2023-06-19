@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./navBar";
 import MobileNav from "./mobileNav";
 import Image from "next/image";
-import logo from '@/assets/logo.png'
+import logo from '@/assets/logo1.png'
 export default function Header({ myRef }) {
   const [mobileNav, setMobileNav] = useState(false);
   const [scroll, setScroll] = useState(false);
@@ -27,7 +27,8 @@ export default function Header({ myRef }) {
         {/* logo */}
         <a href="#" className="bg-secondary p-1">
           <span className="font-Inter text-black font-bold tracking-[10px] text-2xl uppercase sm:text-[30px]">
-             <Image src={logo} width={100} height={100} alt="logo"/>
+             <Image className="  " src={logo}  width={120}   alt="logo"/>
+             {/* LOGO */}
           </span>
         </a>
         {/* nav - initially hidden - show on desktop mode */}

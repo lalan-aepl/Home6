@@ -8,10 +8,10 @@ import AutorenewOutlinedIcon from '@mui/icons-material/AutorenewOutlined';
 import WhatWeOfferCard from '@/components/card/whatWeOfferCard'
 const WorkingProcess = () => {
   return (
-    <div className='bg-normalWhite pt-4'>
-        <div className='px-4 sm:px-20 max-w-screen-2xl mx-auto p-2'>
+    <div className='bg-normalWhite'>
+        <div className='container px-4 sm:px-20 max-w-screen-2xl mx-auto py-16 p-2'>
             <div className=' '>
-                <div className='py-4'>
+                <div className='py-3'>
                     <svg width="52" height="13" viewBox="0 0 52 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path d="M2 2.03135C7 1.54541 9.23007 11.9457 15.5 11.0313C20.699 10.2732 20.2771 2.60181 25.5 2.03135C31.4797 1.37823 31.9859 11.1485 38 11.0313C43.8568 10.9173 45.5 2.03135 50 2.03135" stroke="url(#paint0_linear_188_1337)" stroke-width="3" stroke-linecap="round"/>
                      <defs>
@@ -26,13 +26,39 @@ const WorkingProcess = () => {
                 <h2 className='font-medium text-base'>Why our working is so unique</h2>
                 <h1 className='font-bold text-2xl py-4'>See how working process <br></br> easily adapt your need</h1>
             </div>
-            <div className='grid grid-flow-row sm:grid-cols-2 grid-cols-1 pt-3  lg:gap-10 sm:gap-6 gap-6'>
-                <WhatWeOfferCard icon={<HeadsetOutlinedIcon/>} title='24/7 support' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
-                <WhatWeOfferCard icon={<AccessAlarmOutlinedIcon/>} title='Plagiarism Free' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
-                <WhatWeOfferCard icon={<SmartButtonOutlinedIcon/>} title='On time Delivery' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
-                <WhatWeOfferCard icon={<PlagiarismOutlinedIcon/>} title='Refundable' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
-                <WhatWeOfferCard icon={<MonetizationOnOutlinedIcon/>} title='Compatative Pricing' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
-                <WhatWeOfferCard icon={<AutorenewOutlinedIcon/>} title='Unlimited Revissions' msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+            <div className='grid grid-flow-row sm:grid-cols-2 grid-cols-1 pt-8 lg:gap-4 gap-3'>
+                <WhatWeOfferCard 
+                 icon={<HeadsetOutlinedIcon className='text-[#7357fb]'/>}
+                 style=" bg-[#f1eeff] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
+                 title="24/7 support"
+                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." 
+                /> 
+
+                <WhatWeOfferCard 
+                 icon={<AccessAlarmOutlinedIcon className='text-[#20b9a5]'/>}
+                 style=" bg-[#e7f8f5] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
+                 title='Plagiarism Free' 
+                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                <WhatWeOfferCard 
+                 icon={<SmartButtonOutlinedIcon className='text-[#ff6167]'/>}
+                 style=" bg-[#ffeff0] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
+                 title='On time Delivery' 
+                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                <WhatWeOfferCard 
+                 icon={<PlagiarismOutlinedIcon className='text-[#7357fb]'/>}
+                 style=" bg-[#f1eeff] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
+                 title='Refundable' 
+                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                <WhatWeOfferCard 
+                 icon={<MonetizationOnOutlinedIcon className='text-[#20b9a5]'/>}
+                 style=" bg-[#e7f8f5] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
+                 title='Compatative Pricing' 
+                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
+                <WhatWeOfferCard 
+                 icon={<AutorenewOutlinedIcon className='text-[#ff6167]'/>}
+                 style=" bg-[#ffeff0] text-10 p-3 sm:p-4 rounded-full w-fit h-fit mx-2" 
+                 title='Unlimited Revissions' 
+                 msg="aeccusamus etmaes iusto odiomae dignissimos ducimus quistames blanditiis praesentium voluptatum loramkes anuten." /> 
 
 
             </div>

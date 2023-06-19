@@ -7,7 +7,7 @@ const Contact = () => {
           Contact Us <br />
         </h3>
         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-          <div className=" p-8 lg:col-span-3 lg:p-12">
+          <div className="p-1 pt-3 sm:p-8 lg:col-span-3 lg:p-12">
             <form action="" className="space-y-4">
               <div className="flex flex-col sm:flex-row gap-4">
                 <label className="sr-only" htmlFor="name">
@@ -62,7 +62,7 @@ const Contact = () => {
                 <textarea
                   className="w-full rounded-lg border-gray-200 p-3 text-sm"
                   placeholder="Message"
-                  rows="8"
+                  rows="7"
                   id="message"
                 ></textarea>
               </div>

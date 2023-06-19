@@ -13,7 +13,7 @@
   }
   .heroBg{
     background-image:url('../assets/heroBg1.png');
-    background-size: cover;
+    background-size: contain;
     background-position: 50%;
     background-repeat:  no-repeat;
   }

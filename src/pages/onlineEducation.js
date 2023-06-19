@@ -20,7 +20,7 @@ const OnlineEducation = () => {
                 </div>
                 <h2 className='font-medium text-base'>Beter Learning. Better Result</h2>
                 <h1 className='font-bold text-2xl py-4'>See how working process <br></br> easily adapt your need</h1>
-                <p className="font-sans font-semibold text-sm">accusamus et iusidio dignissimos ducimus. blanditiis praesentium voluptatum deleniti atque corrupti quos dolores etenquasa molestias epturi sint dccaecati cupiditate non providente mikume molareshe.</p>
+                <p className="font-sans  font-medium text-sm">Get all your Assignments/Projects  covered by our highly experienced teams of Writers.We know that students coming to our essay writing service expect us to provide them with original content. {"That's"} exactly what we do. We write a paper from scratch while following your instructions.We assign expert tutors to ensure students get detailed, step-by-step solutions for their assignments.Students across the UK and other countries know who and how professional we are.</p>
                 <button className="px-4 text-sm mt-6 py-3 text-normalWhite bg-contact rounded-sm">Explore more about us</button>
             </div>
             <div className="relative py-5">
