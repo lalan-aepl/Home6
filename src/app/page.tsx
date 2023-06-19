@@ -9,11 +9,12 @@ import MakingEassy from '@/pages/makingEassy'
  import Instructor from '@/pages/instructor'
  import Contact from '@/pages/Contact'
 import Download from '@/pages/download'
-
+import Hero from '@/pages/hero'
 export default function Home() {
   return (
     <main>
-      <HeroSection/>
+      <Hero/>
+      {/* <HeroSection/> */}
       <OnlineEducation/>
       <Services/>
 

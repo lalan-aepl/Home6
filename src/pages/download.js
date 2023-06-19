@@ -12,7 +12,7 @@ const Download = () => {
       className="downloadBg text-normalWhite relative overflow-hidden"
       aria-label="download feature section"
     >
-      <div className="text-white bgstyles" >
+      <div className="text-white  bgstyles" >
         <div className="mx-auto max-w-screen-xl ">
           <div className="py-6 sm:py-12 sm:px-0 px-10">
             <div className="sm:px-10 flex flex-col">
@@ -50,7 +50,7 @@ const Download = () => {
             </div>
           </div>
         </div>
-        <div className="absolute left-[34rem] top-[6rem] xl:left-[48rem] xl:top-[7rem] lg:left-[38rem] xs-hidden">
+        <div className="absolute left-[34rem] top-[6rem] xl:left-[68rem] xl:top-[7rem] lg:left-[38rem] xs-hidden">
           <div className=" text-normalWhite circle rounded-full h-24 w-24 sm:h-32 sm:w-32 bg-circle-1 flex flex-col justify-center items-center text-center relative lg:-left-16 lg:top-14 md:-left-16 md:top-16">
             <span className="font-QuickSand font-bold sm:text-[40px]">98%</span>
             <span className="text-[15px] font-QuickSand font-light leading-0 text-center">

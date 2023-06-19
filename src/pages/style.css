@@ -11,6 +11,12 @@
     width: 100%;
     height: 100%;
   }
+  .heroBg{
+    background-image:url('../assets/heroBg1.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat:  no-repeat;
+  }
   .bgstyles{
     background-image:url('../assets/download.png');
     background-size: cover;
